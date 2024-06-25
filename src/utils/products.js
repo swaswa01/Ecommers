@@ -36,25 +36,25 @@ import FoodSlide from "../Images/Food35.jpg";
 export const SliderData = [
   {
       id: 1,
-      title: "10% Off For Your First Shopping",
+      title: "10% Off For Your First Order",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: FoodsSlide,
   },
   {
       id: 2,
-      title: "10% Off For Your First Shopping",
+      title: "10% Off For Your First Order",
       desc: "Loremdfgdfgdfgdfdffd, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: Food1,
   },
   {
       id: 3,
-      title: "10% Off For Your First Shopping",
+      title: "10% Off For Your First Order",
       desc: "Lorem ipsum dolor sit amet, sdfsdfsdfds adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: Food2,
   },
   {
       id: 4,
-      title: "10% Off For Your First Shopping",
+      title: "10% Off For Your First Order",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: FoodSlide,
   },
@@ -109,10 +109,10 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Coca Cola",
-    imgUrl: Food5,
+    productName: "Rc Cola",
+    imgUrl: Food7,
     category: "Beverage",
-    price: 253,
+    price: 1,
     discount:10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -132,10 +132,10 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Baltsar Chair",
-    imgUrl: Food3,
+    productName: "HotDog",
+    imgUrl: Food9,
     category: "Beverage",
-    price: 1,
+    price: 2.30,
     discount:10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -155,10 +155,10 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
-    imgUrl: Food4,
+    productName: "Taco's Meal",
+    imgUrl: Food10,
     category: "Beverage",
-    price: 3333,
+    price: 10,
     discount:10,
     shortDesc:
       "ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -178,10 +178,10 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Coca Cola",
-    imgUrl: Food5,
-    category: "Beverage",
-    price: 599,
+    productName: "Palgong Tea",
+    imgUrl: Food20,
+    category: "Milk Tea",
+    price: 2.50,
     discount:10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -201,10 +201,10 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
-    imgUrl: Food6,
-    category: "Beverage",
-    price: 799,
+    productName: "Thai Milk Tea",
+    imgUrl: Food21,
+    category: "Milk Tea",
+    price: 1.99,
     discount:10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -250,7 +250,7 @@ export const products = [
     productName: "Rc Cola ",
     imgUrl: Food7,
     category: "Beverage",
-    price: 253,
+    price: 1,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -270,10 +270,10 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Pepsi",
     imgUrl: Food3,
     category: "Beverage",
-    price: 173,
+    price: 1.20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -292,10 +292,10 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Rc Cola ",
-    imgUrl: Food7,
+    productName: "Dr Pepper ",
+    imgUrl: Food2,
     category: "Beverage",
-    price: 253,
+    price: 2,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -314,10 +314,10 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Royal",
     imgUrl: Food4,
     category: "Beverage",
-    price: 163,
+    price: 1,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -337,10 +337,10 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Coca Cola",
     imgUrl: Food5,
     category: "Beverage",
-    price: 163,
+    price: 2,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -360,10 +360,10 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Sprite",
     imgUrl: Food6,
     category: "Beverage",
-    price: 163,
+    price: 1.36,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -382,10 +382,10 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Fries",
     imgUrl: Food11,
     category: "Fastfood",
-    price: 99,
+    price: 9.9,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -405,10 +405,10 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Fanta",
     imgUrl: Food8,
     category: "Beverage",
-    price: 173,
+    price: 1.73,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -428,10 +428,10 @@ export const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "HotDog",
     imgUrl: Food9,
     category: "Fastfood",
-    price: 89,
+    price: 2.30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -451,10 +451,10 @@ export const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Taco's Meal",
     imgUrl: Food10,
     category: "Fastfood",
-    price: 112,
+    price: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -474,10 +474,10 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Classic Milk Tea",
     imgUrl: Food18,
     category: "Milk Tea",
-    price: 799,
+    price: 1.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -496,10 +496,10 @@ export const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Burger & Fries",
     imgUrl: Food12,
     category: "Fastfood",
-    price: 99,
+    price: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -518,10 +518,10 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Taro Milk Tea",
     imgUrl: Food19,
     category: "Milk Tea",
-    price: 799,
+    price: 2.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -541,10 +541,10 @@ export const products = [
 
   {
     id: "12",
-    productName: "Coca Cola",
+    productName: "Palgong Tea",
     imgUrl: Food20,
     category: "Milk Tea",
-    price: 599,
+    price: 2.50,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -564,10 +564,10 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Thai Milk Tea",
     imgUrl: Food21,
     category: "Milk Tea",
-    price: 799,
+    price: 1.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -587,10 +587,10 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Honeydew Milk Tea",
     imgUrl: Food22,
     category: "Milk Tea",
-    price: 899,
+    price: 2,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -610,10 +610,10 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Rose Milk Tea",
     imgUrl: Food17,
     category: "Milk Tea",
-    price: 699,
+    price: 3,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -633,10 +633,10 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Red Velvet",
     imgUrl: Food15,
     category: "Desert",
-    price: 299,
+    price: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -656,10 +656,10 @@ export const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Peach Cobbler",
     imgUrl: Food14,
     category: "Desert",
-    price: 299,
+    price: 29.9,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -679,10 +679,10 @@ export const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Choco Lava",
     imgUrl: Food13,
     category: "Desert",
-    price: 299,
+    price: 10.9,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -702,10 +702,10 @@ export const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Tiramisu",
     imgUrl: Food16,
     category: "Desert",
-    price: 399,
+    price: 17,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -725,7 +725,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Banh Mi (Vietnam)",
     imgUrl: Food26,
     category: "Street Foods",
     price: 10,
@@ -748,10 +748,10 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Fish Balls",
     imgUrl: Food23,
     category: "Street Foods",
-    price: 199,
+    price: 1,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -770,10 +770,10 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Sisig",
     imgUrl: Food24,
     category: "Street Foods",
-    price: 169,
+    price: 2.50,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -792,10 +792,10 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Kwek-Kwek",
     imgUrl: Food25,
     category: "Street Foods",
-    price: 139,
+    price: 1,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
